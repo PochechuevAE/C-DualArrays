@@ -56,3 +56,4 @@ void FillImage(int row, int col)
     }
 }
 
+//public
