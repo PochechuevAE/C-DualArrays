@@ -8,7 +8,7 @@ var matrix = GetMatrix(rows: rows, columns: columns);
 PrintArray(matrix);
 System.Console.WriteLine();
 
-Dictionary<int, int> dict = new Dictionary<int, int>();
+Dictionary<int, int> dict = new Dictionary<int, int>(); //пробегает по массиву 1 раз и считает сколько и каких элементов
      for (int i = 0; i < matrix.GetLength(0); i++)
         {
             for (int l = 0; l < matrix.GetLength(1); l++)
