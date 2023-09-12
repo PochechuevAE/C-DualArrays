@@ -21,4 +21,5 @@ double POW(double num, double degree)
         return 1 / (num * POW(num, degree + 1)); 
     }
     return num * POW(num, degree - 1);
+}
 //asd
