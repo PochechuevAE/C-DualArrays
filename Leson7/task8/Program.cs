@@ -33,8 +33,6 @@ void InOrderTraversal(int pos = 1)
             InOrderTraversal(right);
         } 
     }
-
-    
 }
 
 InOrderTraversal();
